@@ -21,7 +21,7 @@ node{
 	   }
        }
    }
-	  }
+	  
    stage('Docker Image Push'){
    withCredentials([string(credentialsId: 'dockerPass', variable: 'dockerPassword')]) {
    sh "docker login -u saidamo -p ${dockerPassword}"
