@@ -17,7 +17,7 @@ node{
    stage('Build Docker Image'){
        steps{
 	   scriipt{
-		sh 'docker build -t saidamo/myweb:0.0.2 .'
+		sh 'docker build -t damodaran88/myweb:0.0.2 .'
 	   }
        }
    }
